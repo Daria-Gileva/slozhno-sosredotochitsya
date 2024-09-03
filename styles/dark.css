@@ -20,4 +20,5 @@
 
 .page {
   background: var(--header-cover-image);
+  background-attachment: fixed;
 }
