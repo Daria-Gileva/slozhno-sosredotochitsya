@@ -92,10 +92,6 @@
     &:focus-visible {
       outline: 1px solid var(--main-color);
     }
-
-    .page::after {
-      display: none;
-    }
   }
 
   @media (width <= 768px) {
@@ -105,3 +101,4 @@
     }
   }
 }
+

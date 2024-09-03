@@ -1,32 +1,8 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  block-size: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
 .page {
   max-width: 1024px;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  /* height: 100%; */
   margin: auto;
   font-family: var(--main-font);
   font-size: 18px;
@@ -35,6 +11,8 @@ fieldset {
   background: var(--header-cover-image);
   background-attachment: fixed;
 }
+
+
 
 .header {
   min-height: 768px;
@@ -155,7 +133,6 @@ fieldset {
   text-align: left;
   color: var(--default-color);
   width: 100%;
-  max-height: 70px;
   align-items: end;
   grid-column-start: 2;
   justify-content: end;
@@ -286,15 +263,49 @@ fieldset {
   object-fit: cover;
 }
 
-.footer-zone {
+.footer {
   min-height: 768px;
   display: grid;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
+
+/* .footer::before {
+  position: static;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  content: '';
+  top: 20px;
+  right: 20px;
+}
+
+.footer::after {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+  content: '';
+  top: 20px;
+  left: 20px;
+} */
 
 @media (375px < width <= 768px) {
 
+  /* .page::before {
+    content: "";
+    background-color: rgba(0, 0, 40, 0.5);
+    height: 100%;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: -2;
+  }  */
+ 
   .header {
     max-width: 768px;
     min-height: 1024px;
@@ -335,7 +346,7 @@ fieldset {
     grid-column: 1 / 4;
   }
 
-  .footer-zone {
+  .footer {
     min-height: 1024px;
   }
 }
@@ -344,6 +355,17 @@ fieldset {
   .page {
     max-width: 375px;
   }
+
+  /* .page::after {
+    content: "";
+    background-color:rgba(0,0,0,.2);
+    height:100%;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: -2;
+  }  */
 
   .header {
     min-height: 668px;
@@ -434,7 +456,7 @@ fieldset {
     gap: 10px;
   }
 
-  .footer-zone {
+  .footer {
     min-height: 668px;
   }
   
