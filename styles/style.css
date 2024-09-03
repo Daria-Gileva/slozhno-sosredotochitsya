@@ -2,12 +2,11 @@
   max-width: 1024px;
   display: flex;
   flex-direction: column;
-  /* height: 100%; */
   margin: auto;
   font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
-  background-color:var(--default-color);
+  /* background-color:var(--default-color); */
   background: var(--header-cover-image);
   background-attachment: fixed;
 }
