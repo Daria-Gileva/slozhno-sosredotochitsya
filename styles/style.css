@@ -295,17 +295,6 @@ fieldset {
 
 @media (375px < width <= 768px) {
 
-  .page.theme_dark::after {
-    content: "";
-    background-color:rgba(0,0,0,0.5);
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    z-index: -2;
-  }
-
   .header {
     max-width: 768px;
     min-height: 1024px;
@@ -353,29 +342,7 @@ fieldset {
 
 @media (width <= 375px) {
   .page {
-    /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
     max-width: 375px;
-    /* display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin: auto;
-    font-family: var(--main-font);
-    font-size: 18px;
-    font-weight: 400;
-    background-color:var(--default-color);
-    background: var(--header-cover-image, 0.5);
-    background-attachment: fixed;  */
-  }
-  
-  .page.theme_dark::after {
-    content: "";
-    background-color:rgba(0,0,0,.2);
-    height:100%;
-    position:absolute;
-    width:100%;
-    top:0;
-    left:0;
-    z-index: -2;
   }
 
   .header {
@@ -432,38 +399,7 @@ fieldset {
     font-family: var(--main-font);
     font-size: 1em;
   }
-  
-  /* .header__theme-menu-button_type_dark:focus-visible {
-    border-bottom: 1px solid var(--accent-color);
-  }
-  
-  .header__theme-menu-button_type_dark {
-    border: 1px solid var(--accent-color);
-  } */
-  
-  /* .header__decorativ-element-rec {
-    color: var(--accent-color);
-    text-transform: uppercase;
-    line-height: 25px;
-    text-align: center;
-    justify-self: end;
-    display: flex;
-    align-content: center;
-    gap: 10px;
-    align-self: self-start;
-    padding-right: 9px;
-    position: absolute;
-  }
-  
-  .header__decorativ-element-ellipse {
-    box-shadow: 0px 0px 4px 2px var(--accent-color);
-    width: 9px;
-    height: 9px;
-    background-color: var(--accent-color);
-    border-radius: 50%;
-    align-self: center;
-  } */
-  
+
   .main-title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: 95.7px;
@@ -498,101 +434,8 @@ fieldset {
     gap: 10px;
   }
 
-  /* .section__text-title {
-    color: var(--accent-color);
-    font-weight: 700;
-    line-height: 23.4px;
-    font-family: var(--main-font);
-    font-size: 18px;
-    align-items: start;
-  }
-  
-  .text-title-vertical {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-  }
-  
-  .section__text-paragraph {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: var(--main-color);
-  }
-  
-  .paragraph-row {
-    grid-column: 2 / 4;
-  }
-  
-  .section__text-paragraph-title {
-    line-height: 23.4px;
-    font-weight: 700;
-    color: var(--default-color);
-    width: 100%;
-    font-family: var(--main-font);
-    font-size: 18px;
-  }
-  
-  .section__text-paragraph-text {
-    color: var(--main-color);
-  }
-  
-  .accent-text {
-    text-shadow: 2px 1px 0 var(--accent-color);
-  }
-  
-  /* .text-title-horizontal {
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-  } */
-  
-  /*.paragraph-column {
-    grid-row: 2 / 3;
-  }
-  
-  .title-weigt-normal {
-    font-weight: 400;
-  }
-  
-  .section__picture-title {
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-  }
-  
-  .picture__sunset {
-    grid-column: 1 / 3;
-    grid-row: 2 / 3; 
-  }
-  
-  .picture__ice-cream {
-    grid-column: 3 / 4;
-    grid-row: 2 / 4; 
-  }
-  
-  .picture__tape {
-    grid-column: 1 / 2;
-    grid-row: 3 / 5;
-  }
-  
-  .picture__books {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-  }
-  
-  .picture__street {
-    grid-column: 2 / 4;
-    grid-row: 4 / 5;
-  }
-  
-  .section__picture {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-   */
   .footer-zone {
     min-height: 668px;
   }
   
 }
-
-

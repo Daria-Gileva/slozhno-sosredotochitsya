@@ -1,4 +1,4 @@
-:root.theme-light {
+.page.theme_light {
   --accent-color: rgba(255, 141, 203, 1);
   --default-color: rgba(255, 241, 247, 1);
   --main-color: rgba(53, 52, 48, 1);
@@ -16,6 +16,10 @@
     --shadow-color: rgba(255, 0, 112, 1);
     --header-cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
   }
+
+}
+
+.theme_light {
 
   .main-title {
     text-shadow: 4px 4px 0 var(--shadow-color);
@@ -81,19 +85,23 @@
     text-shadow: 2px 1px 0 var(--accent-color);
 
     &:hover {
-      border-bottom: 1px solid currentColor; 
+      border-bottom: 1px solid currentColor;
       text-decoration: none;
     }
 
     &:focus-visible {
       outline: 1px solid var(--main-color);
     }
+
+    .page::after {
+      display: none;
+    }
   }
-}
 
-@media (width <= 768px) and (prefers-color-scheme: light) {
+  @media (width <= 768px) {
 
-  .main-title {
-    text-shadow: 4px 4px 0 var(--accent-color);
+    .main-title {
+      text-shadow: 4px 4px 0 var(--accent-color);
+    }
   }
 }
