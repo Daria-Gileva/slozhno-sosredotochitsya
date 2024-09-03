@@ -135,7 +135,7 @@
   align-items: end;
   grid-column-start: 2;
   justify-content: end;
-  margin-bottom: 20px;
+  margin-block-start: 16px;
 }
 
 .title-decor {
