@@ -17,3 +17,7 @@
   --shadow-color: rgba(255, 0, 112, 1);
   --header-cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
 }
+
+.page {
+  background: var(--header-cover-image);
+}
