@@ -403,7 +403,7 @@
   .header__theme-menu-list {
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 11.5px;
     justify-content: end;
     max-width: 70px;
   }
