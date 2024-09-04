@@ -5,7 +5,7 @@
   --main-color: rgba(241, 178, 206, 1);
   --title-color: rgba(219, 0, 255, 1);
   --shadow-color: rgba(255, 0, 112, 1);
-  --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
+  /* --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover; */
 }
 
 :root.theme_dark {
@@ -15,7 +15,7 @@
   --main-color: rgba(241, 178, 206, 1);
   --title-color: rgba(219, 0, 255, 1);
   --shadow-color: rgba(255, 0, 112, 1);
-  --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
+  /* --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +26,6 @@
   --main-color: rgba(241, 178, 206, 1);
   --title-color: rgba(219, 0, 255, 1);
   --shadow-color: rgba(255, 0, 112, 1);
-  --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
+  /* --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover; */
   }
 }

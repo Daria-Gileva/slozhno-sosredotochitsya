@@ -6,8 +6,12 @@
   font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
-  background: var(--cover-image);
+  /* background: var(--cover-image); */
+  background-image: url(../images/cover-image-dark.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   position: relative;
 }
 
@@ -275,7 +279,7 @@
 
 @media (375px < width <= 768px) {
 
-  .page:not(.theme_light)::before {
+  /* .page:not(.theme_light)::before {
     content: "";
     background-color: rgba(0, 0, 40, 0.5);
     top: 0;
@@ -284,7 +288,7 @@
     height: 100%;
     position: absolute;
     z-index: -10;
-  }
+  } */
 
   .header {
     max-width: 768px;
@@ -337,7 +341,7 @@
     max-width: 375px;
   }
 
-  .page:not(.theme_light)::before {
+  /* .page:not(.theme_light)::before {
     content: "";
     background-color: rgba(0, 0, 40, 0.5);
     top: 0;
@@ -346,7 +350,7 @@
     height: 100%;
     position: absolute;
     z-index: -10;
-  }
+  } */
 
   .header {
     min-height: 668px;
