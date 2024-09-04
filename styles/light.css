@@ -19,6 +19,10 @@
 
 }
 
+.theme-light .page {
+  background: var(--header-cover-image);
+}
+
 .theme_light {
 
   .main-title {

@@ -18,7 +18,7 @@
   --header-cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
 }
 
-.page {
+/* .page {
   background: var(--header-cover-image);
   background-attachment: fixed;
-}
+} */
