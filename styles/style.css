@@ -312,6 +312,7 @@
   .header__article {
     max-width: 364px;
     min-height: 117px;
+    margin: 0;
   }
 
   .header__theme-menu {
@@ -428,6 +429,7 @@
   
   .header__article {
     max-height: 117px;
+    margin: 0;
   }
   
   .title-decor {
