@@ -19,6 +19,10 @@
 }
 
 .theme_light {
+
+  .page::before {
+    content: none;
+  }
   
   background-image: url(../images/cover-image-light.png);
   
