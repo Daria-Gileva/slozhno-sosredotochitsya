@@ -21,6 +21,7 @@
   --paragraph-color: rgba(241, 178, 206, 1);
   --link-shadow: rgba(255, 0, 112, 1);
   --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
+  --opacity-color: rgba(0, 0, 40, 0.5);
 }
 
 :root.theme_dark {
@@ -46,6 +47,7 @@
  
   /* --shadow-color: rgba(255, 0, 112, 1); */
   --cover-image: url(../images/cover-image-dark.png) no-repeat  center / cover;
+  --opacity-color: rgba(0, 0, 40, 0.5);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -72,5 +74,6 @@
    
     /* --shadow-color: rgba(255, 0, 112, 1); */
     --cover-image: url(../images/cover-image-dark.png) no-repeat  center / cover;
+    --opacity-color: rgba(0, 0, 40, 0.5);
   }
 }

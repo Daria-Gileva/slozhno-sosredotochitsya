@@ -21,4 +21,5 @@
  
   /* --shadow-color: rgba(255, 0, 112, 1); */
   --cover-image: url(../images/cover-image-dark.png) no-repeat  center / cover;
+  --opacity-color: rgba(0, 0, 40, 0.5);
 }
