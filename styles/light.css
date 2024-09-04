@@ -4,7 +4,7 @@
   --main-color: rgba(53, 52, 48, 1);
   --title-color: rgba(255, 194, 230, 1);
   --shadow-color: rgba(255, 0, 112, 1);
-  /* --cover-image: url(../images/cover-image-light.png) no-repeat center / cover; */
+  --cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
 }
 
 @media (prefers-color-scheme: light) {
@@ -14,7 +14,7 @@
     --main-color: rgba(53, 52, 48, 1);
     --title-color: rgba(255, 194, 230, 1);
     --shadow-color: rgba(255, 0, 112, 1);
-    /* --cover-image: url(../images/cover-image-light.png) no-repeat center / cover; */
+    --cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
   }
 }
 

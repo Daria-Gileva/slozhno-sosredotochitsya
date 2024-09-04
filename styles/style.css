@@ -6,12 +6,8 @@
   font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
-  /* background: var(--cover-image); */
-  background-image: url(../images/cover-image-dark.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: var(--cover-image);
   background-attachment: fixed;
-  background-position: center;
   position: relative;
 }
 
