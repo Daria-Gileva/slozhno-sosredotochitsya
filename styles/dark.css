@@ -6,7 +6,6 @@
   --title-color: rgba(219, 0, 255, 1);
   --shadow-color: rgba(255, 0, 112, 1);
   --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
-  background-image: url(../images/cover-image-dark.png);
 }
 
 :root.theme_dark {
