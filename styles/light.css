@@ -20,12 +20,6 @@
 
 .theme_light {
 
-  .page::before {
-    content: none;
-  }
-  
-  background-image: url(../images/cover-image-light.png);
-  
   .main-title {
     text-shadow: 4px 4px 0 var(--shadow-color);
   }
