@@ -9,6 +9,7 @@
   background: var(--cover-image);
   background-attachment: fixed;
   position: relative;
+  background-image: url(../images/cover-image-dark.png);
 }
 
 .header {
