@@ -1,31 +1,76 @@
 .page.theme_dark {
-  --accent-color: rgba(255, 0, 112, 1);
+  /* --accent-color: rgba(255, 0, 112, 1); */
   --main-font: 'IBM Plex Mono', 'Consolas', monospace;
-  --default-color: rgba(0, 0, 40, 1);
+  /* --default-color: rgba(0, 0, 40, 1);
   --main-color: rgba(241, 178, 206, 1);
   --title-color: rgba(219, 0, 255, 1);
   --shadow-color: rgba(255, 0, 112, 1);
+  --rec: flex; */
+  --menu-color: rgba(255, 0, 112, 1);
+  --ellement-rec-color: rgba(255, 0, 112, 1);
+  --rec: flex;
+  --corner-color: rgba(255, 0, 112, 1);
+  --main-title-color: rgba(219, 0, 255, 1);
+  --main-title-shadow-color: rgba(255, 0, 112, 1);
+  --main-title-shadow-mobile: rgba(255, 0, 112, 1);
+  --article-color: rgba(255, 0, 112, 1);
+  --article-title-color: rgba(0, 0, 40, 1);
+  --title-color: rgba(255, 0, 112, 1);
+  --subtitle-background-color: rgba(255, 0, 112, 1);
+  --subtitle-color: rgba(0, 0, 40, 1);
+  --paragraph-color: rgba(241, 178, 206, 1);
+  --link-shadow: rgba(255, 0, 112, 1);
   --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
 }
 
 :root.theme_dark {
-  --accent-color: rgba(255, 0, 112, 1);
+  --menu-color: rgba(255, 0, 112, 1);
+  --ellement-rec-color: rgba(255, 0, 112, 1);
+  --rec: flex;
+  --corner-color: rgba(255, 0, 112, 1);
+  --main-title-color: rgba(219, 0, 255, 1);
+  --main-title-shadow-color: rgba(255, 0, 112, 1);
+  --main-title-shadow-mobile: rgba(255, 0, 112, 1);
+  --article-color: rgba(255, 0, 112, 1);
+  --article-title-color: rgba(0, 0, 40, 1);
+  --title-color: rgba(255, 0, 112, 1);
+  --subtitle-background-color: rgba(255, 0, 112, 1);
+  --subtitle-color: rgba(0, 0, 40, 1);
+  --paragraph-color: rgba(241, 178, 206, 1);
+  --link-shadow: rgba(255, 0, 112, 1);
+  /* --accent-color: rgba(255, 0, 112, 1); */
   --main-font: 'IBM Plex Mono', 'Consolas', monospace;
-  --default-color: rgba(0, 0, 40, 1);
-  --main-color: rgba(241, 178, 206, 1);
-  --title-color: rgba(219, 0, 255, 1);
-  --shadow-color: rgba(255, 0, 112, 1);
-  --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
+  /* --default-color: rgba(0, 0, 40, 1); */
+  /* --main-color: rgba(241, 178, 206, 1); */
+  /* --title-color:  */
+ 
+  /* --shadow-color: rgba(255, 0, 112, 1); */
+  --cover-image: url(../images/cover-image-dark.png) no-repeat  center / cover;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --accent-color: rgba(255, 0, 112, 1);
-  --main-font: 'IBM Plex Mono', 'Consolas', monospace;
-  --default-color: rgba(0, 0, 40, 1);
-  --main-color: rgba(241, 178, 206, 1);
-  --title-color: rgba(219, 0, 255, 1);
-  --shadow-color: rgba(255, 0, 112, 1);
-  --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
+    --menu-color: rgba(255, 0, 112, 1);
+    --ellement-rec-color: rgba(255, 0, 112, 1);
+    --rec: flex;
+    --corner-color: rgba(255, 0, 112, 1);
+    --main-title-color: rgba(219, 0, 255, 1);
+    --main-title-shadow-color: rgba(255, 0, 112, 1);
+    --main-title-shadow-mobile: rgba(255, 0, 112, 1);
+    --article-color: rgba(255, 0, 112, 1);
+    --article-title-color: rgba(0, 0, 40, 1);
+    --title-color: rgba(255, 0, 112, 1);
+    --subtitle-background-color: rgba(255, 0, 112, 1);
+    --subtitle-color: rgba(0, 0, 40, 1);
+    --paragraph-color: rgba(241, 178, 206, 1);
+    --link-shadow: rgba(255, 0, 112, 1);
+    /* --accent-color: rgba(255, 0, 112, 1); */
+    --main-font: 'IBM Plex Mono', 'Consolas', monospace;
+    /* --default-color: rgba(0, 0, 40, 1); */
+    /* --main-color: rgba(241, 178, 206, 1); */
+    /* --title-color:  */
+   
+    /* --shadow-color: rgba(255, 0, 112, 1); */
+    --cover-image: url(../images/cover-image-dark.png) no-repeat  center / cover;
   }
 }
