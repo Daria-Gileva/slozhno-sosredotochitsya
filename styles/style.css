@@ -56,7 +56,6 @@
   flex-wrap: nowrap;
   gap: 8px;
   justify-content: space-around;
-  max-width: 230px;
   line-height: 20px;
 }
 
