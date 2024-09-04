@@ -4,7 +4,7 @@
   --main-color: rgba(53, 52, 48, 1);
   --title-color: rgba(255, 194, 230, 1);
   --shadow-color: rgba(255, 0, 112, 1);
-  --header-cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
+  --cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
 }
 
 @media (prefers-color-scheme: light) {
@@ -14,20 +14,24 @@
     --main-color: rgba(53, 52, 48, 1);
     --title-color: rgba(255, 194, 230, 1);
     --shadow-color: rgba(255, 0, 112, 1);
-    --header-cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
+    --cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
   }
 
 }
 
-.theme-light .page {
+/* .theme-light .page {
   background-image: url(../images/cover-image-light.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
-}
+} */
 
 .theme_light {
+/* 
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  } */
 
   .main-title {
     text-shadow: 4px 4px 0 var(--shadow-color);

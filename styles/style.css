@@ -6,7 +6,7 @@
   font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
-  background: var(--header-cover-image);
+  background: var(--cover-image);
   background-attachment: fixed;
 }
 
