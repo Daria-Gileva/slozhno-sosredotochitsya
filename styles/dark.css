@@ -28,8 +28,8 @@
   --shadow-color: rgba(255, 0, 112, 1);
   --cover-image: url(../images/cover-image-dark.png) no-repeat center / cover;
   }
-}
 
-.page.theme_dark {
-  background-image: url(../images/cover-image-dark.png);
+  .page.theme_dark {
+    background-image: url(../images/cover-image-dark.png);
+  }
 }
