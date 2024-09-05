@@ -1,4 +1,5 @@
 :root {
+  --background-color: #000028;
   --menu-color: rgba(255, 0, 112, 1);
   --ellement-rec-color: rgba(255, 0, 112, 1);
   --rec: flex;
@@ -15,5 +16,5 @@
   --link-shadow: rgba(255, 0, 112, 1);
   --main-font: 'IBM Plex Mono', 'Consolas', monospace;
   --cover-image: url(../images/cover-image-dark.png) no-repeat  center / cover;
-  --opacity-color: rgba(0, 0, 40, 0.5);
+  /* --opacity-color: rgba(0, 0, 40, 0.5); */
 }

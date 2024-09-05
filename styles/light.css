@@ -1,5 +1,6 @@
 .page.theme_light {
-  --menu-color: rgba(53, 52, 48, 1);
+    --background-color: #fff1f7;
+    --menu-color: rgba(53, 52, 48, 1);
     --ellement-rec-color: none;
     --rec: none;
     --corner-color: rgba(53, 52, 48, 1);
@@ -14,11 +15,12 @@
     --paragraph-color: rgba(53, 52, 48, 1);
     --link-shadow: rgba(255, 141, 203, 1);
     --cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
-    --opacity-color: rgba(0, 0, 40, 0);
+    /* --opacity-color: rgba(0, 0, 40, 0); */
   }
 
 @media (prefers-color-scheme: light) {
   :root {
+    --background-color: #fff1f7;
     --menu-color: rgba(53, 52, 48, 1);
     --ellement-rec-color: none;
     --rec: none;
@@ -34,7 +36,7 @@
     --paragraph-color: rgba(53, 52, 48, 1);
     --link-shadow: rgba(255, 141, 203, 1);
     --cover-image: url(../images/cover-image-light.png) no-repeat center / cover;
-    --opacity-color: rgba(0, 0, 40, 0);
+    /* --opacity-color: rgba(0, 0, 40, 0); */
   }
 
   .header__theme-menu-button {
