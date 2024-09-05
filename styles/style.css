@@ -317,7 +317,6 @@
     grid-template-columns: 236px 1fr 1fr;
     grid-template-rows: repeat(2, auto);
     max-width: 768px;
-  
   }
   
   .paragraph-column {
