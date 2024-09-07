@@ -345,7 +345,7 @@
     width: 100%;
   }
   
-  .paragraph-column {
+  .paragraph-what {
     grid-row: auto;
     grid-column: 1 / 4;
   }
@@ -440,6 +440,10 @@
     gap: 20px;
   }
   
+  .section__text-title {
+    max-width: 375px;
+  }
+
   .section-mobile {
     gap: 10px;
   }
