@@ -344,6 +344,10 @@
     max-width: 768px;
     width: 100%;
   }
+
+  .section__text-title {
+    max-width: 236px;
+  }
   
   .paragraph-what {
     grid-row: auto;
