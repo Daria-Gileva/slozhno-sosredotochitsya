@@ -1,6 +1,7 @@
 :root {
   --background-color: #000028;
   --menu-color: rgba(255, 0, 112, 1);
+  --menu-hover-color: rgba(255, 0, 112, 0.4);
   --ellement-rec-color: rgba(255, 0, 112, 1);
   --rec: flex;
   --corner-color: rgba(255, 0, 112, 1);
